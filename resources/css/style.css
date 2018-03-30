@@ -51,7 +51,7 @@ header {
 }
 header img {
   width: 60%;
-  height: auto;
+  height: auto; /* height: auto; isn't working right*/
   padding: 2rem 1.5rem;
 }
 #centertext {
@@ -123,7 +123,7 @@ header p {
 }
 .ImgCont img {
   width: 35%;
-  height: auto;
+  height: auto; /* height: auto; isn't working right*/
   padding: 1rem;
 }
 .ImgText {
@@ -143,4 +143,47 @@ header p {
 .info {
   color: dimgrey;
   padding-bottom: .5rem;
+}
+/*Learning Section */
+#Learning {
+  width: 100%;
+  height: auto;
+  background-color: dimgrey;
+}
+#Learning h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+}
+#LearningCont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4.5rem 2rem 4.5rem;
+}
+.SubjectBox {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  margin: 2rem;
+}
+.SubjectBox img {
+  width: 100%;
+  height: auto;
+}
+.SubjectBox h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0 .5rem 1rem;
+}
+.SubjectBox h4 {
+  font-size: 1rem;
+  color: dimgrey;
+  text-transform: uppercase;
+  padding: 0 0 .5rem 1rem;
+}
+.SubjectBox p {
+  font-size: 1rem;
+  padding: 0 .5rem 1.5rem 1rem;
 }
