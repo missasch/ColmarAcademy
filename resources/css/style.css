@@ -45,7 +45,7 @@ nav {
 }
 /*Header Section*/
 header {
-  background-color: lightgrey;
+  background-color: grey;
   display: flex;
   flex-basis: 100%;
 }
@@ -81,4 +81,66 @@ header p {
   padding-top: .5rem;
   padding-bottom: .5rem;
   text-align: center;
+}
+/*Practice Section*/
+#Practice {
+  background-color: lightgrey;
+  display: flex;
+  flex-basis: 100%;
+}
+#PracticeLeft {
+  width: 62%;
+  height: auto;
+}
+#PracticeLeft img {
+  width: 98%;
+  height: auto;
+  padding: 2rem 1.5rem;
+}
+#PracticeLeft h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 2rem 0 1.5rem 1.5rem;
+}
+#Quote {
+  color: dimgrey;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+#QuoteLabel {
+  font-size: 0.90rem;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+#PracticeRight {
+  width: 38%;
+  margin-left: 1.5rem;
+}
+.ImgCont {
+  display: flex;
+}
+.ImgCont img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+.ImgText {
+  width: 65%;
+  padding: 4rem 1rem;
+  text-align: left;
+
+}
+.ImgText h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: .5rem;
+}
+.link {
+  color: darkblue;
+}
+.info {
+  color: dimgrey;
+  padding-bottom: .5rem;
 }
