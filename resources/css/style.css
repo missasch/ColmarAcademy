@@ -1,0 +1,45 @@
+/*General CSS*/
+html {
+  font-size: 16px;
+}
+
+/*Nav Bar*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  height: 4rem;
+}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+#logo h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+#logo img {
+  height: 3rem;
+  width: auto;
+}
+#Colmar {
+  font-weight: bold;
+}
+#Academy {
+  color: grey;
+}
+#links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#links ul {
+  display: flex;
+  padding-right: 1.5rem;
+}
+#links li {
+  padding-left: 16px;
+  font-size: 1.1rem;
+}
