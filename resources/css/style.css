@@ -187,3 +187,46 @@ header p {
   font-size: 1rem;
   padding: 0 .5rem 1.5rem 1rem;
 }
+/*Thesis Section*/
+#Thesis {
+  width: 100%;
+  background-color: lightgrey;
+}
+#Thesis h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+}
+#ThesisCont {
+  display: flex;
+  justify-content: space-between;
+}
+#ThesisLeft {
+  width: 60%;
+  height: auto;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+#ThesisLeft h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+#ThesisLeft p {
+  color: dimgrey;
+  padding-bottom: 2rem;
+}
+/*Footer Section*/
+footer {
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+#FooterLeft {
+  padding: 1rem 0 3rem 1.5rem;
+}
+#FooterRight {
+  padding: 1rem 0 3rem 1.5rem;
+}
