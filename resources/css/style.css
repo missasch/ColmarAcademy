@@ -49,10 +49,13 @@ header {
   display: flex;
   flex-basis: 100%;
 }
-header img {
+#headerimg {
   width: 60%;
-  height: auto; /* height: auto; isn't working right*/
   padding: 2rem 1.5rem;
+}
+#headerimg img {
+  width: 99%;
+  height: auto;
 }
 #centertext {
   display: flex;
@@ -113,18 +116,23 @@ header p {
   font-size: 0.90rem;
   padding-top: 2rem;
   padding-left: 1.5rem;
+  padding-bottom: 2rem;
 }
 #PracticeRight {
   width: 38%;
   margin-left: 1.5rem;
+  padding-top: 1rem;
 }
 .ImgCont {
   display: flex;
 }
-.ImgCont img {
+.ImgCont2 {
   width: 35%;
-  height: auto; /* height: auto; isn't working right*/
   padding: 1rem;
+}
+.ImgCont img {
+  width: 99%;
+  height: auto;
 }
 .ImgText {
   width: 65%;
