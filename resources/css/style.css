@@ -2,6 +2,12 @@
 html {
   font-size: 16px;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", ariel;
+}
+p, ul {
+  font-family: Dosis, ariel;
+}
 
 /*Nav Bar*/
 nav {
@@ -28,7 +34,7 @@ nav {
   font-weight: bold;
 }
 #Academy {
-  color: grey;
+  color: #8B8581;
 }
 .mobilelogo {
   display: none;
@@ -43,6 +49,7 @@ nav {
   padding-right: 1.5rem;
 }
 #links li {
+  font-weight: bold;
   padding-left: 16px;
   font-size: 1.1rem;
 }
@@ -70,7 +77,7 @@ nav {
 }
 /*Header Section*/
 header {
-  background-color: grey;
+  background-color: #8B8581;
   display: flex;
   flex-basis: 100%;
 }
@@ -103,7 +110,7 @@ header p {
   padding-bottom: 2rem;
 }
 #StartButton {
-  background-color: black;
+  background-color: #0A0A0A;
   color: white;
   font-size: 1.25rem;
   padding-top: .5rem;
@@ -122,15 +129,18 @@ header p {
   }
   #bannertext {
     padding: 2rem 1rem;
+    width: 100%;
   }
   #bannertext h1 {
     padding-bottom: 2rem;
   }
-
+  #StartButton {
+    width: 100%;
+  }
 }
 /*Practice Section*/
 #Practice {
-  background-color: lightgrey;
+  background-color: #B9C0CC;
   display: flex;
   flex-basis: 100%;
 }
@@ -246,7 +256,7 @@ header p {
 #Learning {
   width: 100%;
   height: auto;
-  background-color: dimgrey;
+  background-color: #8B8581;
 }
 #Learning h2 {
   font-size: 2rem;
@@ -280,7 +290,7 @@ header p {
 }
 .SubjectBox h4 {
   font-size: 1rem;
-  color: dimgrey;
+  color: #8B8581;
   text-transform: uppercase;
   padding: 0 0 .5rem 1rem;
 }
@@ -299,7 +309,7 @@ header p {
   }
   #LearningMobile p {
     width: 90%;
-    background-color: darkgrey;
+    background-color: #97A0A6;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem 1rem 2rem 1rem;
@@ -309,7 +319,7 @@ header p {
 /*Thesis Section*/
 #Thesis {
   width: 100%;
-  background-color: lightgrey;
+  background-color: #B9C0CC;
 }
 #Thesis h2 {
   font-size: 2rem;
@@ -352,7 +362,7 @@ header p {
 /*Footer Section*/
 footer {
   width: 100%;
-  background-color: lightgrey;
+  background-color: #595957;
   display: flex;
   justify-content: space-between;
 }
@@ -360,7 +370,7 @@ footer {
   padding: 1rem 0 3rem 1.5rem;
 }
 #FooterRight {
-  padding: 1rem 0 3rem 1.5rem;
+  padding: 1rem 2rem 3rem 1.5rem;
 }
 /*Media Query for Footer Section*/
 @media screen and (max-width: 760px) {
