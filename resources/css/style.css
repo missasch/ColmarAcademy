@@ -30,6 +30,9 @@ nav {
 #Academy {
   color: grey;
 }
+.mobilelogo {
+  display: none;
+}
 #links {
   display: flex;
   justify-content: flex-end;
@@ -43,6 +46,28 @@ nav {
   padding-left: 16px;
   font-size: 1.1rem;
 }
+/*Media Query for Nav Bar*/
+@media screen and (max-width: 760px) {
+  #Colmar, #Academy {
+    display: none;
+  }
+  .mobilelogo {
+    display: inline;
+  }
+  #logo {
+    width: 98%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #links {
+    width: 1%;
+    display: none;
+  }
+}
 /*Header Section*/
 header {
   background-color: grey;
@@ -54,7 +79,7 @@ header {
   padding: 2rem 1.5rem;
 }
 #headerimg img {
-  width: 99%;
+  width: 100%;
   height: auto;
 }
 #centertext {
@@ -84,6 +109,24 @@ header p {
   padding-top: .5rem;
   padding-bottom: .5rem;
   text-align: center;
+}
+/*Media Query for Header Section*/
+@media screen and (max-width: 760px) {
+  header {
+    display: block;
+  }
+  #headerimg {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  #bannertext {
+    padding: 2rem 1rem;
+  }
+  #bannertext h1 {
+    padding-bottom: 2rem;
+  }
+
 }
 /*Practice Section*/
 #Practice {
@@ -123,6 +166,9 @@ header p {
   margin-left: 1.5rem;
   padding-top: 1rem;
 }
+.mobileimg {
+  display: none;
+}
 .ImgCont {
   display: flex;
 }
@@ -138,7 +184,6 @@ header p {
   width: 65%;
   padding: 4rem 1rem;
   text-align: left;
-
 }
 .ImgText h3 {
   font-size: 1.5rem;
@@ -151,6 +196,51 @@ header p {
 .info {
   color: dimgrey;
   padding-bottom: .5rem;
+}
+/*Media Query for Practice Section*/
+@media screen and (max-width: 760px) {
+  #PracticeLeft {
+  display: none;
+  }
+  #PracticeRight {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .desktopimg {
+    display: none;
+  }
+  .mobileimg {
+    display: block;
+  }
+  .ImgCont {
+    display: block;
+    padding: 0;
+  }
+  .ImgCont2 {
+    width: 95%;
+    padding: 1rem;
+  }
+  .ImgCont2 img {
+    width: 100%;
+    height: auto;
+  }
+  .ImgText {
+    width: 95%;
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+  .ImgText h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+  }
+  .ImgText p {
+    font-size: 1.25rem;
+  }
+  .link {
+    padding-bottom: 2rem;
+  }
 }
 /*Learning Section */
 #Learning {
@@ -169,6 +259,9 @@ header p {
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 4.5rem 2rem 4.5rem;
+}
+#LearningMobile {
+  display: none;
 }
 .SubjectBox {
   width: 25%;
@@ -194,6 +287,24 @@ header p {
 .SubjectBox p {
   font-size: 1rem;
   padding: 0 .5rem 1.5rem 1rem;
+}
+/*Media Query for Learning Section*/
+@media screen and (max-width: 760px) {
+  #LearningCont {
+    display: none;
+  }
+  #LearningMobile {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  #LearningMobile p {
+    width: 90%;
+    background-color: darkgrey;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 1rem 2rem 1rem;
+    margin: .5rem 1rem;
+  }
 }
 /*Thesis Section*/
 #Thesis {
@@ -225,6 +336,19 @@ header p {
   color: dimgrey;
   padding-bottom: 2rem;
 }
+/*Media Query for Thesis Section*/
+@media screen and (max-width: 760px) {
+  #ThesisCont {
+    display: block;
+  }
+  #ThesisLeft {
+    width: 100%;
+    padding: 1rem 0 1.5rem 0;
+  }
+  .ThesisRight {
+    display: none;
+  }
+}
 /*Footer Section*/
 footer {
   width: 100%;
@@ -237,4 +361,13 @@ footer {
 }
 #FooterRight {
   padding: 1rem 0 3rem 1.5rem;
+}
+/*Media Query for Footer Section*/
+@media screen and (max-width: 760px) {
+  #FooterLeft {
+    padding: 1rem;
+  }
+  #FooterRight {
+    display: none;
+  }
 }
