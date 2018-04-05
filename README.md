@@ -9,3 +9,4 @@ I did find 2 FontAwesome Icons for the Footer, but felt like any more would clut
 I did try to make the page accessible for screen readers, but both links in the lesson don't work anymore. (I tried to report a bug but 
 the button didn't do anything) So I just re-did the lesson again and tried to apply that to this site.
 Thank you!
+  
