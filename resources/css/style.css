@@ -245,7 +245,6 @@ header p {
   }
   .ImgCont {
     display: block;
-    padding: 0;
   }
   .ImgCont2 {
     width: 95%;
@@ -399,6 +398,7 @@ footer {
 }
 #FooterRight p {
   padding-left: 1rem;
+  padding-right: .5rem;
 }
 #FooterRight p:hover {
   text-decoration: underline;
