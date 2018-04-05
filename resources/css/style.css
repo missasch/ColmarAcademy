@@ -53,6 +53,9 @@ nav {
   padding-left: 16px;
   font-size: 1.1rem;
 }
+#links li:hover {
+  text-decoration: underline;
+}
 /*Media Query for Nav Bar*/
 @media screen and (max-width: 760px) {
   #Colmar, #Academy {
@@ -60,6 +63,11 @@ nav {
   }
   .mobilelogo {
     display: inline;
+  }
+  .grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
   }
   #logo {
     width: 98%;
@@ -116,6 +124,9 @@ header p {
   padding-top: .5rem;
   padding-bottom: .5rem;
   text-align: center;
+}
+#StartButton:hover {
+  background-color: #363636;
 }
 /*Media Query for Header Section*/
 @media screen and (max-width: 760px) {
@@ -190,6 +201,11 @@ header p {
   width: 99%;
   height: auto;
 }
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .ImgText {
   width: 65%;
   padding: 4rem 1rem;
@@ -202,6 +218,10 @@ header p {
 }
 .link {
   color: darkblue;
+}
+.link:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 .info {
   color: dimgrey;
@@ -315,6 +335,10 @@ header p {
     padding: 1rem 1rem 2rem 1rem;
     margin: .5rem 1rem;
   }
+  #LearningMobile p:hover {
+    color: #B9C0CC;
+    background-color: #313130;
+  }
 }
 /*Thesis Section*/
 #Thesis {
@@ -370,7 +394,15 @@ footer {
   padding: 1rem 0 3rem 1.5rem;
 }
 #FooterRight {
+  display: flex;
   padding: 1rem 2rem 3rem 1.5rem;
+}
+#FooterRight p {
+  padding-left: 1rem;
+}
+#FooterRight p:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 /*Media Query for Footer Section*/
 @media screen and (max-width: 760px) {
